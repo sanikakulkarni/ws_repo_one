@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<TestSuite>
+        <Details>
+                <Name>suite_one_actions</Name>
+                <Title>One Actions Suite</Title>
+                <Engineer>Sanika</Engineer>
+                <Date>10/11/2017</Date>
+                <Time>16:53:23</Time>
+                <type Max_Attempts="" Number_Attempts="" exectype="sequential_testcases"/>
+                <State>Released</State>
+                <default_onError action="next" />
+                <Resultsdir/>
+        </Details>
+        <Requirements>
+                <Requirement>Requirement-demo-001</Requirement>
+                <Requirement>Requirement-demo-002</Requirement>
+        </Requirements>
+        <Testcases>
+                <Testcase>
+                        <path>../Testcases/tc_demo_actions.xml</path>
+                        <context>positive</context>
+                        <runtype>sequential_keywords</runtype>
+                        <onError action="next" value=""/>
+                        <impact>impact</impact>
+                        <InputDataFile/>
+                        <Execute ExecType="Yes">
+                                <Rule Condition="" Condvalue="" Else="next" Elsevalue=""/>
+                        </Execute>
+                        <runmode type="Standard" value=""/>
+                </Testcase>
+        </Testcases>
+</TestSuite>

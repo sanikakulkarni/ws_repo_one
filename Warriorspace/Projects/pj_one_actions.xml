@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Project>
+        <Details>
+                <Name>pj_one_actions</Name>
+                <Title>One Actions Project</Title>
+                <Engineer>Sanika</Engineer>
+                <State>In Review</State>
+                <Date>10/11/2017</Date>
+                <Time>16:53:17</Time>
+                <default_onError action="abort" value=""/>
+        </Details>
+        <Testsuites>
+                <Testsuite>
+                        <path>../Suites/suite_one_actions.xml</path>
+                        <onError action="abort" value=""/>
+                        <impact>impact</impact>
+                        <Execute ExecType="Yes">
+                                <Rule Condition="" Condvalue="" Else="next" Elsevalue=""/>
+                        </Execute>
+                </Testsuite>
+        </Testsuites>
+</Project>

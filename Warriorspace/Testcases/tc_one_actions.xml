@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Testcase>
+        <Details>
+                <Name>demo_one_actions</Name>
+                <Title>demo_one_actions</Title>
+                <ExpectedResults>PASS</ExpectedResults>
+                <Category>Demo</Category>
+                <Engineer>Sanika</Engineer>
+                <Date>2017-10-10</Date>
+                <Time>16:17</Time>
+                <default_onError action="next"/>
+                <InputDataFile>No_Data</InputDataFile>
+                <Datatype>Custom</Datatype>
+                <Logsdir/>
+                <Resultsdir/>
+                <State>Released</State>
+        </Details>
+        <Requirements>
+                <Requirement>requirement-001</Requirement>
+                <Requirement>requirement-002</Requirement>
+        </Requirements>
+        <Steps>
+                <step Driver="kw_repo_one_driver" Keyword="one_actions_timeout" TS="1" draft="no">
+                        <Arguments>
+                                <argument name="timeout" value="5"/>
+                        </Arguments>
+                        <onError action="next"/>
+                        <Description>Launch the Browser and navigate to the URL</Description>
+                        <Execute ExecType="Yes"/>
+                        <context>positive</context>
+                        <impact>impact</impact>
+                        <runmode type="Standard" value=""/>
+                </step>
+        </Steps>
+</Testcase>
